@@ -26,27 +26,42 @@ const Navbar = () => {
       );
     return (
      <>
-         <div style={{height:"60px"}} className=" bg-black">
-     <Container >
-<div className=" flex flex-row justify-between items-center ">
-<div className=" ">
-       <ul className=" text-white flex flex-row mt-5">
-       <li className=" mr-5"><FaTwitter></FaTwitter></li>
-       <li className=" mr-5"><FaLinkedin></FaLinkedin></li>
-       <li className="  mr-5"><FaGoogle></FaGoogle></li>
-       <li className=" "><FaPinterest></FaPinterest></li>
-       </ul>
-        </div>
-       
-        <div className="mt-5">
-<ul className="flex flex-row text-white">
-<li className="mr-5 flex flex-row"><MdOutlineEmail ></MdOutlineEmail><span className="ml-3"> info.pix@gmail.com</span></li>
-<li className="flex flex-row "><FiPhoneCall className=""></FiPhoneCall><span className="ml-3">(209) 555-0104</span></li>
-</ul>
-        </div>
-</div>
+      <div className="bg-black">
+        <Container>
+          <div className="flex justify-between items-center">
+            <div className="flex">
+              <ul className="text-white flex items-center">
+                <li className="mr-4">
+                  <FaTwitter />
+                </li>
+                <li className="mr-4">
+                  <FaLinkedin />
+                </li>
+                <li className="mr-4">
+                  <FaGoogle />
+                </li>
+                <li>
+                  <FaPinterest />
+                </li>
+              </ul>
+            </div>
+
+            <div className="flex items-center">
+              <ul className="flex items-center text-white">
+                <li className="mr-4 flex items-center">
+                  <MdOutlineEmail />
+                  <span className="ml-2">info.pix@gmail.com</span>
+                </li>
+                <li className="flex items-center">
+                  <FiPhoneCall />
+                  <span className="ml-2">(209) 555-0104</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </Container>
       </div>
+
       {/* ------------------ */}
     
          <div className="navbar bg-base-100 ">
@@ -65,7 +80,7 @@ const Navbar = () => {
             </ul>
           </div>
          
-          <Link className=" normal-case text-xl " style={{marginLeft:"199px"}}>
+          <Link className=" normal-case text-xl " style={{marginLeft:"193px"}}>
          
             <img  style={{height:"32px",width:"200px"}}  src={logo} alt="" />
           </Link>

@@ -1,9 +1,10 @@
+import Header from "./Header/Header";
 
 
 const Home = () => {
     return (
         <div>
-            <button className="btn btn-secondary">Button</button>
+           <Header></Header>
         </div>
     );
 };
