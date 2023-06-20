@@ -1,6 +1,7 @@
 import About from "./About/About";
 import Feature from "./Feature/Feature";
 import Header from "./Header/Header";
+import OurTeam from "./OurTeam/OurTeam";
 import Services from "./Services/Services";
 import Sponser from "./Sponser/Sponser";
 
@@ -13,6 +14,7 @@ const Home = () => {
            <About></About>
            <Services></Services>
            <Feature></Feature>
+           <OurTeam></OurTeam>
         </div>
     );
 };
