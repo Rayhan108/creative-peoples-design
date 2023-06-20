@@ -15,6 +15,14 @@ letter-spacing: -0.02em;
     border: 1px dashed #A4A4A4;
     transform: rotate(90deg);
 }
+.bg-img{
+background-image: url('../../../assets/bg/BG\ Elements-2.png');
+background-repeat: no-repeat;
+}
+.border-bg{
+   border-color:#D6DBDE;
+
+}
 .header-pera{
     width: 629px;
 height: 80px;
