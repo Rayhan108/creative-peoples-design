@@ -7,6 +7,8 @@ import {
 import router from './routes/router.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+  <div className='overflow-hidden'>
+  <RouterProvider router={router} />
+  </div>
   </React.StrictMode>,
 )
