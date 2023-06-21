@@ -49,7 +49,7 @@ const Clients = () => {
                 <form method="dialog" className="modal-box">
                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
 
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ozOLVOS-R8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ozOLVOS-R8" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <div className="modal-action">
 
                         

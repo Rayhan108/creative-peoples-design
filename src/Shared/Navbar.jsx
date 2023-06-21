@@ -13,33 +13,33 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/about" className=" font-bold">
+        <Link  className=" font-bold">
           About Us
-        </NavLink>
+        </Link>
       </li>
 
       <li>
         {" "}
-        <NavLink to="/services" className=" font-bold">
+        <Link  className=" font-bold">
           Services
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink to="/pricing" className=" font-bold">
+        <Link  className=" font-bold">
           Pricing
-        </NavLink>
+        </Link>
       </li>
       <li>
         {" "}
-        <NavLink to="/blog" className=" font-bold">
+        <Link  className=" font-bold">
           Blog
-        </NavLink>
+        </Link>
       </li>
       <li>
         {" "}
-        <NavLink to="/contact" className=" font-bold">
+        <Link  className=" font-bold text-black">
           Contact
-        </NavLink>
+        </Link>
       </li>
     </>
   );
