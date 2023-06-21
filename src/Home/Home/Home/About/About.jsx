@@ -1,5 +1,5 @@
 import { FiArrowUpRight } from "react-icons/fi";
-import img from "../../../assets/img/Image.png";
+import img from "../../../../assets/img/Image.png";
 
 const About = () => {
   return (

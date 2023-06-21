@@ -41,6 +41,12 @@ const Navbar = () => {
           Contact
         </Link>
       </li>
+      <li>
+        {" "}
+        <NavLink to="/todos"  className=" font-bold text-black">
+         Todos
+        </NavLink>
+      </li>
     </>
   );
   return (
