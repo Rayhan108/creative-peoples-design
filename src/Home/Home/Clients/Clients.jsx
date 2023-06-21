@@ -4,35 +4,35 @@ import icon from "../../../assets/icon/Play Icon.png";
 const Clients = () => {
 
   return (
-    <div className=" mt-[130px] mb-[86px]">
-      <div className="bg-[#FFF5DA] w-[1920px] h-[568px]">
-        <div className=" ml-[200px] mr-[600px] ">
-          <div className="md:flex justify-between  items-center pt-[100px] absolute">
-            <div className="w-[651px] h-[124px]">
+    <div className=" mt-[130px] mb-[86px] p-8">
+      <div className="bg-[#FFF5DA] md:w-[1920px] md:h-[568px]">
+        <div className=" md:ml-[200px] md:mr-[600px] ">
+          <div className="md:flex justify-between  items-center pt-[100px] md:absolute">
+            <div className="md:w-[651px] md:h-[124px]">
               <h1 className="font-bold md:text-5xl text-xl mt-2">
                 Our Client Says Their Satisfaction
               </h1>
             </div>
-            <div className="ml-[250px]">
+            <div className="md:ml-[250px]">
               <button className="button flex items-center justify-center mt-10 text-white">
                 Discover More<FiArrowUpRight></FiArrowUpRight>
               </button>
             </div>
           </div>
 
-          <div className="relative top-[284px] left-[22px] right-[299px]">
-            <div className="flex gap-[94px]">
+          <div className="md:relative md:top-[284px] md:left-[22px] md:right-[299px]">
+            <div className="md:flex md:gap-[94px]">
               <div >
-                <img className="absolute cursor-pointer" src={client} alt="" />
+                <img className=" md:absolute cursor-pointer " src={client} alt="" />
              <button onClick={() => window.my_modal_5.showModal()}>
              <img 
-                  className="relative top-[226px] right-[227px] bottom-[225px] left-[226px]"
+                  className=" md:relative top-[226px] right-[227px] bottom-[225px] left-[226px]"
                   src={icon}
                   alt=""
                 />
              </button>
               </div>
-              <div className="w-[550px] h-[459px] pt-[120px] pr-[98px] pb-[237px] relative left-[400px]">
+              <div className="md:w-[550px] md:h-[459px] md:pt-[120px] md:pr-[98px] md:pb-[237px] md:relative md:left-[400px]">
                 <p>
                   Will is one of the most knowledgeable and competent people I
                   have ever met in the IT field. The more difficult the IT
@@ -49,7 +49,7 @@ const Clients = () => {
                 <form method="dialog" className="modal-box">
                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
 
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ozOLVOS-R8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ozOLVOS-R8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <div className="modal-action">
 
                         
@@ -59,5 +59,4 @@ const Clients = () => {
     </div>
   );
 };
-
 export default Clients;

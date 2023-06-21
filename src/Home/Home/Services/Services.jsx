@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div>
       
-      <div className="md:flex md:flex-row gap-[200px] ">
+      <div className="md:flex md:flex-row gap-[100px] md:ml-[200px] p-8">
         <div className="md:mt-32 w-[500px] h-[460px]">
        <div className="relative">
        <img className="absolute -left-30 top-56 " src={bgElement} alt="" />
@@ -59,8 +59,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-[#F4F9FF] w-[991px] h-[804px] relative">
-          <div className="grid md:grid-cols-2 gap-5  absolute top-[90px] right-[250px] w-[826px] h-[635px]">
+        <div className="bg-[#F4F9FF] md:w-[991px] md:h-[804px] ">
+          <div className="grid md:grid-cols-2 gap-5  md:w-[826px] md:h-[635px]">
             <div className="card-body bg-white ">
               <img
                 style={{ width: "73px", height: "71px" }}

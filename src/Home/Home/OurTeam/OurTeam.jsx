@@ -46,7 +46,7 @@ const OurTeam = () => {
     <SwiperSlide>
         <img className="w-[470px] h-[550px]"  src={img3} alt="" />
         <div className="translate-y-1 bg-white">
-                    <div className="flex items-center justify-between p-3 w-[370px]  -mt-[80px]">
+                    <div className="flex items-center justify-between p-3 md:w-[370px]  -mt-[80px]">
                         <div>
                             <h3 className="font-bold lg:text-xl">Jenny Wilson</h3>
                             <p className="lg:text-lg">St. Celina, Delaware</p>
