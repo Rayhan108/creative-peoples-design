@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Clients from "./Clients/Clients";
 import Feature from "./Feature/Feature";
 import Header from "./Header/Header";
 import OurTeam from "./OurTeam/OurTeam";
@@ -15,6 +16,7 @@ const Home = () => {
            {/* <Services></Services> */}
            <Feature></Feature>
            <OurTeam></OurTeam>
+           <Clients></Clients>
         </div>
     );
 };
