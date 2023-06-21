@@ -4,12 +4,16 @@ import icon2 from "../../../assets/icon/network.png";
 import icon3 from "../../../assets/icon/Icon.png";
 import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
-
+import bgElement from "../../../assets/bg/BG Elements-2.png"
 const Services = () => {
   return (
     <div>
+      
       <div className="md:flex md:flex-row gap-[200px] ">
-        <div className="md:mt-32 w-[500px] h-[460px] ">
+        <div className="md:mt-32 w-[500px] h-[460px]">
+       <div className="relative">
+       <img className="absolute -left-30 top-56 " src={bgElement} alt="" />
+       </div>
           <div className="flex ">
             <hr className="w-[79px] hr mt-3 mr-2" />
             <p
